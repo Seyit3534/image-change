@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="jpg"></h1>
+    <script src="deneme.js"></script>
+    <div class="content">
+        <div id="bir"><img src="indir (1).jpg"/> </div>
+        <div id="iki"><img src="indir (2).jpg"/> </div>
+        <div id="uc"><img src="indir.jpg"/> </div>
+      </div>
+      <button class="a1"onClick="resim1()">Resim 1</button>
+      <button class="a2"onClick="resim2()">Resim 2</button>
+      <button class="a3"onClick="resim3()">Resim 3</button>
+</div>
+</body>
+</html>
+<style>
+.a1, .a2, .a3{
+  width: px;
+  height: 30px;
+  margin-left: 300;
+  margin-top: 40px;
+  background-color: cadetblue;
+  color: darkorchid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+body{
+    background-color: #807a7a;
+}
+.content{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  margin-left: 300px;
+  overflow: hidden;
+  color: rgb(95, 24, 24);
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+img {
+   width: 800px;
+  height: 400px;
+}
+
+#bir, #iki, #uc {
+  display: none
+}
+
+button {
+  outline: none;
+}
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+    opacity:.8;
+    
+  }
+  
+  
+</style>
